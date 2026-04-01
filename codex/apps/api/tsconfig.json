@@ -11,7 +11,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "outDir": "dist",
-    "rootDir": "src",
     "baseUrl": ".",
     "paths": {
       "@marginmitra/shared": [
@@ -20,7 +19,11 @@
       "@marginmitra/shared/*": [
         "shared/src/*"
       ]
-    }
+    },
+    "rootDirs": [
+      "src",
+      "shared/src"
+    ]
   },
   "include": [
     "src/**/*.ts",
