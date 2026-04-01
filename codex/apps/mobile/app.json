@@ -15,7 +15,8 @@
       "package": "com.marginmitra.app",
       "permissions": [
         "android.permission.INTERNET"
-      ]
+      ],
+      "googleServicesFile": "./google-services.json"
     }
   }
 }

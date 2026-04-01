@@ -1,11 +1,32 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "outDir": "dist",
-    "rootDir": "src"
+    "baseUrl": ".",
+    "paths": {
+      "@marginmitra/shared": [
+        "shared/src/index"
+      ],
+      "@marginmitra/shared/*": [
+        "shared/src/*"
+      ]
+    },
+    "rootDirs": [
+      "src",
+      "shared/src"
+    ]
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "shared/src/**/*.ts"
   ]
 }
-
