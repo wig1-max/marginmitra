@@ -1,0 +1,28 @@
+{
+  "name": "@marginmitra/mobile",
+  "version": "0.0.1",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "build": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^22.0.0",
+    "@react-native-firebase/auth": "^22.0.0",
+    "@marginmitra/shared": "workspace:*",
+    "axios": "^1.9.0",
+    "expo": "^54.0.0",
+    "expo-dev-client": "^5.0.0",
+    "expo-document-picker": "^13.0.0",
+    "expo-router": "^5.0.0",
+    "expo-secure-store": "^15.0.0",
+    "react": "^19.0.0",
+    "react-native": "^0.81.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.8.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "MarginMitra",
+    "slug": "marginmitra",
+    "scheme": "marginmitra",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "@react-native-firebase/app"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.marginmitra.app",
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    }
+  }
+}

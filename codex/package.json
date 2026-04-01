@@ -1,0 +1,15 @@
+{
+  "name": "marginmitra",
+  "private": true,
+  "packageManager": "pnpm@10.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "pnpm --filter @marginmitra/api start:dev",
+    "dev:mobile": "pnpm --filter @marginmitra/mobile start",
+    "build": "pnpm -r build"
+  }
+}
+
