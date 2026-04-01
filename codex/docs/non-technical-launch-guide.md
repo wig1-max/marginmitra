@@ -61,7 +61,7 @@ git --version
 5. Set **Root Directory** to `/codex/apps/api` (this is what Railway UI usually allows in this repo).
 6. In Build settings, use:
    - Install: `npm install`
-   - Build: `npx tsc -p shared/tsconfig.json && npm run build`
+   - Build: `npx tsc -p ../../packages/shared/tsconfig.json && npm run build`
    - Start: `npm run start`
 
 (These commands avoid pnpm/workspace issues in Railway.)
