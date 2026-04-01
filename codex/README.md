@@ -4,6 +4,7 @@ MarginMitra is an Android-first monorepo for Indian sellers who need a clean ans
 
 This workspace contains:
 
+- an Android-first launch runbook for non-technical founders in [`docs/non-technical-launch-guide.md`](./docs/non-technical-launch-guide.md)
 - a product and systems blueprint in [`docs/marginmitra-blueprint.md`](./docs/marginmitra-blueprint.md)
 - a relational schema in [`docs/schema.sql`](./docs/schema.sql)
 - a shared domain package with the true-profit calculation logic in [`packages/shared/src`](./packages/shared/src)

@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# env / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# firebase credentials
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase-service-account*.json
+
+# build outputs
+**/dist/
+**/.expo/
+**/.turbo/
